@@ -46,13 +46,22 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
+.navbar-toggler {
+    border: none; 
+    background-color: transparent;
+    padding: 0.25rem 0.5rem;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 #hero{
     background-image:linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(/images/hero-bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-
 
 #hero .hero-title{
     color: #fff;
